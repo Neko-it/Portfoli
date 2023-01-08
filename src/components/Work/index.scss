@@ -1,0 +1,121 @@
+.work-page{
+    .text-zone{
+        position: absolute;
+        left: 16%;
+        top: 7%;
+        width: 84%;
+        vertical-align:middle;
+        max-height: 84%;
+
+        h1{
+            font-size: 66px;
+            color: #ff8c00;
+            font-weight: 300;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 7px;
+            padding-bottom: 7px;
+            left: 16px;
+            border-radius: 6%;
+            border-bottom: 6px solid #ff8c00;
+            width:fit-content;
+
+        }
+        h3{
+            position: relative;
+            padding-left: 36px;
+            color: white;
+            font-size:2rem;
+        }
+
+        p{ 
+            font-size:3rem;
+            padding: 3px;
+        }
+
+    }
+}
+
+// grid grid-cols-2 sm:grid-cols-3 gap-8  py-8 px-12 sm:px-0
+.elencoS{
+    display:flex;
+    
+    
+    width: 66%;
+    text-align: center;
+    list-style: none;
+    
+    .casella{
+        height: 16%;
+        width: 100%;
+        margin: 3px;
+        padding-top: 16px;
+        border-radius: 16px;
+
+       &.s1:hover{
+        border: 2px solid aqua;
+        box-shadow: 0 0 20px aqua;
+        #s1{
+            border-bottom: 2px solid aqua;
+            border-top: 2px solid aqua;
+            box-shadow: 0 0 20px aqua;
+            }
+        }
+       &.s2:hover{
+        border: 2px solid red;
+        box-shadow: 0 0 20px red;
+        #s2{
+            border-bottom: 2px solid red;
+            border-top: 2px solid red;
+            box-shadow: 0 0 20px red;
+            }
+        }
+       &.s3:hover{
+        border: 2px solid chartreuse;
+        box-shadow: 0 0 20px chartreuse;
+        #s3{
+            border-bottom: 2px solid chartreuse;
+            border-top: 2px solid chartreuse;
+            box-shadow: 0 0 20px chartreuse;
+            }
+        }
+       &.s4:hover{
+        border: 2px solid snow;
+        box-shadow: 0 0 20px snow;
+        #s4{
+            border-bottom: 2px solid snow;
+            border-top: 2px solid snow;
+            box-shadow: 0 0 20px snow;
+            }
+        }
+       &.s5:hover{
+        border: 2px solid dodgerblue;
+        box-shadow: 0 0 20px dodgerblue;
+        #s5{
+            border-bottom: 2px solid dodgerblue;
+            border-top: 2px solid dodgerblue;
+            box-shadow: 0 0 20px dodgerblue;
+            }
+        }
+       &.s6:hover{
+        border: 2px solid #ff8c00;
+        box-shadow: 0 0 20px #ff8c00;
+        #s6{
+            color: dodgerblue;
+            border-bottom: 2px solid #ff8c00;
+            border-top: 2px solid #ff8c00;
+            box-shadow: 0 0 20px #ff8c00;
+            }
+        }   
+    }
+    
+    img{height: 83px;}
+
+    #s1{color:aqua;}
+    #s2{color:red;}
+    #s3{color:chartreuse;}
+    #s4{color:snow;}
+    #s5{color:dodgerblue;}
+    #s6{color:orange;}
+
+}
